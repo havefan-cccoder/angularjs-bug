@@ -1,0 +1,10 @@
+.formbox{
+  position: absolute;
+  top: 60px;
+  left: 300px;
+  width: calc(100% - 300px);
+}
+
+.formbox div div.fromitem{
+  text-align: center
+}

@@ -1,0 +1,14 @@
+<ul class="servicelist">
+  <li ng-repeat="item in vm.serviceList track by $index">
+      <p>{{item.serviceName}}</p>
+
+      <div>
+          <button ng-click="vm.openEditModal(item)">编辑</button>
+          <button ng-click="vm.openDetailPage(item)">详情</button>
+          <button ng-click="vm.del(item)">删除</button>
+      </div>
+  </li>
+  <li ng-click="vm.openEditModal()">
+      <img src="../../assets/images/add.png" alt="" srcset="">
+  </li>
+</ul>
